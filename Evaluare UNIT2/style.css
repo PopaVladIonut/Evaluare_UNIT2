@@ -1,0 +1,213 @@
+body
+{
+  background-attachment: fixed;
+  background-image: url("circuit2.png");
+  background-position: left;
+  background-size: cover;
+}
+h1#name
+{
+  background-image: linear-gradient(to right, black, mediumpurple, lightpink, white);
+  border-radius: 20px 20px 0px 0px;
+  border: 2px solid black;
+  filter: drop-shadow(5px 10px 5px gray);
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  padding: 6px;
+  text-align: right;
+}
+.background
+{
+  background: rgba(0, 0, 0, 0.2);
+  margin-bottom: -18px;
+  margin-top: -28px;;
+  padding-bottom: 10px;
+}
+p#email, a#email2
+{
+  color: black;
+  filter: drop-shadow(5px 10px 5px gray);
+  font-family: 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  margin-right: 6px;
+  margin-top: -18px;
+  opacity: 80%;
+  text-align: right;
+  text-decoration: none;
+}
+p#sub1
+{
+  filter: drop-shadow(5px 10px 5px gray);
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 6px;
+  margin-right: 8px;
+  text-align: right;
+  text-decoration: underline;
+}
+table
+{
+  margin-left: auto;
+  margin-right: 8px;
+  width: 80%;
+}
+th, td
+{
+  background-color: gray;
+  border-color: gray;
+  border-radius: 5px;
+  border: 2px solid gray;
+  color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+  opacity: 80%;
+}
+th
+{
+  font-size: 18px;
+}
+td
+{
+  font-size: 14px;
+  font-style: italic;
+  vertical-align: top;
+}
+.square
+{
+  background-image: linear-gradient(to right bottom, black, mediumpurple, lightpink, white);
+  border-radius: 0px 0px 20px 20px;
+  border: 2px solid black;
+  filter: drop-shadow(5px 10px 5px gray);
+  margin-top: 18px;
+  opacity: 80%;
+  padding: 6px;
+}
+p#sub2
+{
+  filter: drop-shadow(5px 10px 5px gray);
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: -6px;
+  margin-top: 0;
+  text-align: right;
+  text-decoration: underline;
+}
+p#setup
+{
+  text-align: right;
+}
+p#sub3
+{
+  filter: drop-shadow(5px 10px 5px gray);
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: -6px;
+  text-align: center;
+  text-decoration: underline;
+}
+.list
+{
+  text-align: center;
+}
+ul
+{
+  display: inline-block;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-bottom: 2px;
+}
+p#sub4
+{
+  filter: drop-shadow(5px 10px 5px gray);
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 36px;
+  text-align: right;
+  text-decoration: underline;
+}
+*
+{
+  box-sizing:border-box
+}
+.slideshow
+{
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: auto;
+  max-width: 1000px;
+  position: relative;
+}
+.slides
+{
+  display: none;
+}
+.prev, .next
+{
+  border-radius: 0 10px 10px 0;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -22px;
+  opacity: 80%;
+  padding: 16px;
+  position: absolute;
+  top: 50%;
+  user-select: none;
+  width: auto;
+}
+.next
+{
+  border-radius: 10px 0 0 10px;
+  right: 0;
+}
+.prev:hover, .next:hover
+{
+  background-image: linear-gradient(to right, mediumpurple, lightpink);
+  border: 2px solid black;
+}
+.img
+{
+  border-radius: 15px;
+  border: 2px solid black;
+  filter: grayscale(100%);
+  opacity: 80%;
+}
+.text
+{
+  bottom: 8px;
+  color: black;
+  padding: 8px 12px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.numbertext
+{
+  bottom: 8px;
+  color: black;
+  padding: 8px 12px;
+  position: relative;
+  top: 0;
+}
+.dots
+{
+  text-align: center;
+}
+.dot
+{
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 15px;
+  margin: 0 2px;
+  opacity: 80%;
+  width: 15px;
+}
+.active, .dot:hover
+{
+  background-image: linear-gradient(to right bottom, mediumpurple, lightpink);
+}
